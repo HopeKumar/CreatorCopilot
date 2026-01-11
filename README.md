@@ -87,27 +87,35 @@ CreatorCopilot uses the Gemini API.
 
 ### Kaggle
 
-Add a Kaggle Secret named: GEMINI_API_KEY
+Add a Kaggle Secret named: ``` GEMINI_API_KEY ```
 The project automatically reads it.
 
 ### Local Usage
 
 Linux / macOS
+```
 export GEMINI_API_KEY="your_api_key_here"
+```
 
 Windows (PowerShell)
+```
 setx GEMINI_API_KEY "your_api_key_here"
+```
 If no API key is found, the system runs in mock mode.
 
 ▶️ How to Run
+```
 python creatorcopilot.py
+```
 The script generates content for multiple niches and saves the output to a CSV file.
 
 📌 Example Use Case
 Input
+```
  Niche: Minecraft Survival
 Audience: Beginner Players
 Goal: Day 1 Survival
+```
 
 Output
 
